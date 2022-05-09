@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ReliFast Cooperate</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-primary navbar-expand-lg bg-light py-3 fixed-top text-primary">
+        <div class="container">
+            <a href="#" class="navbar-brand">RELIFAST</a>
+
+            <button class="navbar-toggler navbar-dark bg-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item nav-pills">
+                        <a href="contact.html" class="nav-link nav-link active" aria-current="page">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-primary btn-md" data-bs-toggle="modal" data-bs-target="#enroll">
+                            Get Started
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-light text-primary p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center">
+                <div>
+                    <h1 class=" text-primary showcasehead"> GET IN TOUCH <br>WITH US
+                    </h1>
+                    <p class="lead text-dark pb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, doloribus!<br>
+                        Aspernatur odit labore iste iusto suscipit libero! Enim, perspiciatis placeat?
+                    </p>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- CONTACT -->
+    <section>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col-md">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Last Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Reason for Contact">
+                    </div>
+                    <div class="mb-5">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Type your message"></textarea>
+                    </div>
+                    <button class="btn btn-primary btn-lg mb-5 w-100">
+                        SUBMIT
+                    </button>
+                </div>
+
+                <div class="col-md text-center">
+
+                    <div class="p-5">
+                        <h3>Email</h3>
+                        <p>hello@ourcompany.com</p>
+                        <br>
+                        <h3>Contact Suport</h3>
+                        <p>support@ourcompany.com</p>
+                        <br>
+                        <h3>Office Locations</h3>
+                        <p>New York | Madrid | Jakata</p>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- LINKS-->
+    <section class="bg-dark">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="cols-md">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark text-light">
+                            COMPANY
+                        </li>
+                        <li class="list-group-item bg-dark text-light">About</li>
+                        <li class="list-group-item bg-dark text-light">Road Map</li>
+                        <li class="list-group-item bg-dark text-light">Latest News</li>
+                        <li class="list-group-item bg-dark text-light">Contact Us</li>
+                        <li class="list-group-item bg-dark text-light">Get Started</li>
+                    </ul>
+                </div>
+
+
+                <div class="cols-md">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark text-light">
+                            SERVICES
+                        </li>
+                        <li class="list-group-item bg-dark text-light">Unlimited Data</li>
+                        <li class="list-group-item bg-dark text-light">Web Hosting</li>
+                        <li class="list-group-item bg-dark text-light">Secured Vps</li>
+                        <li class="list-group-item bg-dark text-light">Many More</li>
+                    </ul>
+                </div>
+
+
+                <div class="cols-md">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark text-light">
+                            BLOG
+                        </li>
+                        <li class="list-group-item bg-dark text-light">Network Confaure</li>
+                        <li class="list-group-item bg-dark text-light">Chip Monitoring</li>
+                        <li class="list-group-item bg-dark text-light">Monitoring
+                            Data</li>
+                    </ul>
+                </div>
+
+                <div class="cols-md">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark text-light">
+                            FIND US
+                        </li>
+                        <li class="list-group-item bg-dark text-light">
+                            <h3>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-twitter ps-3"></i>
+                                <i class="bi bi-instagram ps-3"></i>
+                            </h3>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2021 Frontend Bootcamp</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Fill out this form and we will get back to you</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">
+                                First Name:
+                            </label>
+                            <input type="text" class="form-control" id="first-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="last-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">Phone:</label>
+                            <input type="tel" class="form-control" id="phone" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+        mapboxgl.accessToken =
+            'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-71.060982, 42.35725],
+            zoom: 18,
+        })
+    </script>
+</body>
+
+</html>
